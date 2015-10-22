@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;demo-rest-spring-jersey-jpa2-hibernate&apos;" deleteContents="false" description="Delete resource &apos;demo-rest-spring-jersey-jpa2-hibernate&apos;" element1="/demo-rest-spring-jersey-jpa2-hibernate" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1398808060570"/>
+</session>

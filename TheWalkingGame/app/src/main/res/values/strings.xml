@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TheWalkingGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="label1">Score</string>
+    <string name="label2">Info</string>
+    <string name="label3">Map</string>
+    <string name="title_activity_tab_action_bar">TheWalkingGame</string>
+    <string name="body1">bodyScore</string>
+    <string name="body2">bodyInfo</string>
+    <string name="body3">bodyMap</string>
+    <string name="buttonToQuiz">Go To Quiz</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="recrutement">Ici la page des recrutements !</string>
+    <string name="invitation">Ici la page des invitations !</string>
+    <string name="profil">Ici la page de profil !</string>
+    <string name="title_activity_recrutement">Recrutement</string>
+    <string name="title_activity_invitation">InvitationActivity</string>
+    <string name="info">Informations :</string>
+    <string name="contenu_info">Fais attention il n\'y a personne pour te couvrir cette fois ! \nIl faut que tu rejoignes l\'objectif, une fois là-bas tu auras de nouvelles instructions.</string>
+    <string name="nom_equipe1">Equipe manquante</string>
+    <string name="nom_equipe2">Equipe manquante</string>
+    <string name="score_equipe1">0</string>
+    <string name="score_equipe2">0</string>
+    <string name="score">Score :</string>
+    <string name="nom_joueur1_equipe1">Joueur manquant</string>
+    <string name="nom_joueur2_equipe1">Joueur manquant</string>
+    <string name="nom_joueur3_equipe1">Joueur manquant</string>
+    <string name="nom_joueur4_equipe1">Joueur manquant</string>
+    <string name="nom_joueur1_equipe2">Joueur manquant</string>
+    <string name="nom_joueur2_equipe2">Joueur manquant</string>
+    <string name="nom_joueur3_equipe2">Joueur manquant</string>
+    <string name="nom_joueur4_equipe2">Joueur manquant</string>
+    <!-- Quiz activity -->
+    <string name="validation">Valider</string>
+    <!-- Recrutement -->
+    <string name="button_inviter">Inviter</string>
+    <string name="text_nb_survivants_manquant">"Nombre de survivants : "</string>
+    <string name="nb_survivants_manquant">3</string>
+    <string name="button_creer_equipe">Valider equipe</string>
+    <string name="pseudo_joueur1">Kevin (Chef)</string>
+    <string name="pseudo_joueur2">Joueur manquant</string>
+    <string name="pseudo_joueur3">Joueur manquant</string>
+    <string name="pseudo_joueur4">Joueur manquant</string>
+    <string name="text_chercher_un_survivant">Chercher un survivant</string>
+    <!-- Journal d'invitations -->
+    <string name="titre_page_invitations">Journal des invitations</string>
+    <string name="accepter_invitation">Accepter</string>
+    <string name="refuser_invitation">Refuser</string>
+    <string name="button_menu">Menu</string>
+    <!-- Gestion -->
+    <string name="title_activity_main_manage">MainManage</string>
+    <string name="manage_games">Gestion des jeux</string>
+    <string name="manage_players">Gestion des joueurs</string>
+    <string name="manage_partie">Gestion des parties en cours</string>
+    <string name="title_activity_manage_games">ManageGamesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="manage_quiz">Quiz</string>
+    <string name="manage_reanimer">Reanimer</string>
+    <string name="manage_simon">Simon</string>
+    <string name="manage_head_upside_down">HeadUpsideDown</string>
+    <string name="manage_find_key">Find keys</string>
+    <!-- Gestion Reanimer -->
+    <string name="title_activity_manage_reanimer">Manage Reanimer</string>
+    <string name="reanimer_score_a_atteindre">Score a atteindre</string>
+    <string name="reanimer_temps_autorise">Temps autorise (en secondes)</string>
+    <!-- Gestion HeadUpsideDown -->
+    <string name="title_activity_manage_head_upside_down">Manage HeadUpsideDown</string>
+    <string name="head_upside_down_temps_autorise">Temps autorise (en secondes)</string>
+    head_upside_down_temps_autorise            <!-- Game Reanimer -->
+    <string name="title_activity_reanimer">Recharge ta lampe</string>
+    <string name="title_activity_manage_quiz">ManageQuiz</string>
+    <!-- Gestion Quiz -->
+    <string name="title_manage_quiz">Gestion des quiz</string>
+    <string name="add_quiz">Ajouter un quiz</string>
+    <string name="edit_text_manage_quiz_question">Question :</string>
+    <string name="edit_text_ans1_manage">Réponse 1:</string>
+    <string name="edit_text_ans2_manage">Réponse 2:</string>
+    <string name="edit_text_ans3_manage">Réponse 3:</string>
+    <string name="edit_text_ans4_manage">Réponse 4:</string>
+    <string name="title_activity_splash_reanimer">Splash reanimer</string>
+    <string name="title_activity_gestion_user_admin">GestionUserAdminActivity</string>
+    <string name="title_activity_wait_game">WaitGame</string>
+
+    <!-- Gestion Players -->
+    <string name="title_manage_players">Gestion des joueurs</string>
+
+    <!-- Jeu du Simon -->
+    <string name="title_activity_simon_game">SimonGameActivity</string>
+    <!-- Gestion jeu du Simon -->
+    <string name="title_activity_manage_simon">Manage Simon</string>
+    <string name="simon_seq_length">Taille de la sequence</string>
+
+    <!-- Activité vide pour les tests -->
+    <string name="title_activity_null_test">NullTestActivity</string>
+    <string name="title_activity_head_upside_down">HeadUpsideDown</string>
+
+    <!-- Game HeadUpsideDown -->
+    <string name="enigme_head_upside_down">Je me sens mieux la tete a l\'envers.</string>
+    <string name="title_activity_splash_head_upside_down">SplashHeadUpsideDown</string>
+    <!-- Splash Activity HeadUpsideDown -->
+    <string name="splash_head_upside_down_explications">Tentez de trouver une solution</string>
+    <string name="splash_head_upside_down_ready">Appuyez sur l ecran pour lancer le jeu</string>
+    <string name="title_activity_find_the_key">FindTheKey</string>
+    <string name="title_activity_splash_find_the_key">SplashFindTheKey</string>
+
+    <!-- Gestion Find The Keys -->
+    <string name="title_activity_find_keys">Manage Find the keys</string>
+    <string name="title_activity_manage_find_keys">ManageFindKeys</string>
+    <string name="limite_of_time">Temps autorisé (en seconde) :</string>
+    <string name="title_activity_end_of_game">EndOfGame</string>
+
+    <!-- Activity end of game -->
+    <string name="score_player">0</string>
+    <string name="defi_reussi">Défi réussi</string>
+    <string name="defi_fail">Défi raté</string>
+    <string name="defi_totaux">Total</string>
+    <string name="pourcentage_reussi">% de réussite</string>
+    <string name="pourcentage_fail">% d\'échec</string>
+    <string name="end_of_game_back_to_main_menu">Retour au menu principal</string>
+    <string name="distance_parcourue">Distance parcourue ( m )</string>
+
+    <string name="title_activity_generique">GeneriqueActivity</string>
+
+</resources>

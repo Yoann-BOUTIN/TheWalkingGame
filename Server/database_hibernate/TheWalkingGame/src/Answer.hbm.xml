@@ -1,0 +1,13 @@
+<?xml version="1.0"?><!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="database.Answer" table="answer">
+		<id name="answerId" type="int" column="answer_id">
+			<generator class="native" />
+		</id>
+		<property name="answerText" type="string" not-null="true" column="answer_text" />
+		<property name="correctAnswer" type="boolean" column="correct_answer" not-null="true" />
+		<property name="questionId" type="int" column="question_id" not-null="true" />
+	</class>
+</hibernate-mapping>

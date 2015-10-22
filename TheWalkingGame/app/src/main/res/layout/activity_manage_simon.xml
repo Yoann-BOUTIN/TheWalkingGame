@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fond_simon">
+
+    <TextView
+        android:id="@+id/title_activity_manage_simon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="@string/title_activity_manage_simon"/>
+
+    <TextView
+        android:id="@+id/text_modification_simon_seq_length"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/simon_seq_length"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_modification_simon_seq_length"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_modification_simon_seq_length"
+        android:layout_toLeftOf="@+id/valider_modification_simon_seq_length"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/valider_modification_simon_seq_length"
+        android:layout_alignTop="@id/edit_text_modification_simon_seq_length"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/checkbox_on_background"/>
+
+</RelativeLayout>

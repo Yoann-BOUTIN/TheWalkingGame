@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_hanted_home"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/hanted_home"
+    tools:context="com.thewalkinggame.app.gestionJeu.FindTheKey.FindTheKey">
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar_circle"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="10px"
+        android:progressDrawable="@drawable/circle_progress_bar" />
+
+    <TextView
+        android:id="@+id/timeChronoKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="635px"
+        android:layout_marginTop="40px"
+        android:textSize="40sp"
+        android:textColor="@color/red_off"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/key"
+        android:layout_marginTop="102px"
+        android:layout_marginLeft="262px"
+        android:id="@+id/first_key_to_find"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/key"
+        android:layout_marginTop="430px"
+        android:layout_marginLeft="382px"
+        android:id="@+id/second_key_to_find"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/key"
+        android:layout_marginTop="500px"
+        android:layout_marginLeft="217px"
+        android:id="@+id/third_key_to_find"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/key"
+        android:layout_marginTop="305px"
+        android:layout_marginLeft="86px"
+        android:id="@+id/fourth_key_to_find"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/key"
+        android:layout_marginTop="139px"
+        android:layout_marginLeft="379px"
+        android:id="@+id/fifth_key_to_find"/>
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/first_key_found"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50px"
+        android:id="@+id/second_key_found"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100px"
+        android:id="@+id/third_key_found"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="150px"
+        android:id="@+id/fourth_key_found"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200px"
+        android:id="@+id/fifth_key_found"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_on">#1FFF1F</color>
+    <color name="green_off">#006600</color>
+    <color name="red_on">#FF0000</color>
+    <color name="red_off">#770000</color>
+    <color name="yellow_on">#FFFF00</color>
+    <color name="yellow_off">#FFA900</color>
+    <color name="blue_on">#0000FF</color>
+    <color name="blue_off">#000077</color>
+    <color name="wrong">#D64700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

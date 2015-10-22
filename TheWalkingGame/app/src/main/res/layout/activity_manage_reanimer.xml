@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fond_simon">
+
+    <TextView
+        android:id="@+id/title_manage_reanimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_manage_reanimer"/>
+
+    <TextView
+        android:id="@+id/text_score_a_atteindre"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/reanimer_score_a_atteindre"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_reanimer_score_a_atteindre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_score_a_atteindre"
+        android:textColor="#FFFFFF"
+        android:layout_toLeftOf="@+id/valider_modification_reanimer_score_a_atteindre"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/valider_modification_reanimer_score_a_atteindre"
+        android:layout_alignTop="@id/edit_text_reanimer_score_a_atteindre"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/checkbox_on_background"/>
+
+    <TextView
+        android:id="@+id/text_temps_autorise"
+        android:layout_below="@id/edit_text_reanimer_score_a_atteindre"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="@string/reanimer_temps_autorise"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/edit_text_reanimer_temps_autorise"
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_temps_autorise"
+        android:layout_toLeftOf="@+id/valider_modification_reanimer_temps_autorise"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/valider_modification_reanimer_temps_autorise"
+        android:layout_alignTop="@id/edit_text_reanimer_temps_autorise"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/checkbox_on_background"/>
+
+</RelativeLayout>

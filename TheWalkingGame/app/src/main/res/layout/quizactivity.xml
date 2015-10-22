@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fond_simon"
+    >
+    <TextView
+        android:id="@+id/texview_question"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="@drawable/plaque_quizz"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+    />
+
+    <TextView
+        android:id="@+id/multiple_choice_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texview_question"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+       />
+
+    <Button
+        android:id="@+id/button_ans1"
+        android:layout_below="@id/multiple_choice_textview"
+        style="@style/answer_button_style"
+        android:background="@drawable/panneau_quizz_a"/>
+
+    <Button
+        android:id="@+id/button_ans2"
+        android:layout_below="@id/button_ans1"
+        style="@style/answer_button_style"
+        android:background="@drawable/panneau_quizz_b"
+        />
+
+    <Button
+        android:id="@+id/button_ans3"
+        android:layout_below="@id/button_ans2"
+        style="@style/answer_button_style"
+        android:background="@drawable/panneau_quizz_c"
+        />
+
+    <Button
+        android:id="@+id/button_ans4"
+        android:layout_below="@id/button_ans3"
+        style="@style/answer_button_style"
+        android:background="@drawable/panneau_quizz_d"
+        />
+
+    <Button
+        android:id="@+id/button_validation"
+        android:layout_alignParentBottom="true"
+        style="@style/button_validation_quiz"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/validation_button_drawable"
+        android:text="@string/validation"
+        />
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar_vertical"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="160px"
+        android:layout_height="70px"
+        android:layout_marginLeft="330px"
+        android:layout_marginTop="650px"
+        android:progressDrawable="@drawable/vertical_progress_bar"
+        android:rotation="270"/>
+
+    <ImageView
+        android:id="@+id/torche_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lampe_torche"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/title_activity_reanimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/timeRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="625px"
+        android:layout_marginTop="780px"
+        android:textColor="@color/white"
+        android:textSize="40sp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_circle_reanimer"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40px"
+        android:layout_marginLeft="600px"
+        android:progressDrawable="@drawable/circle_progress_bar" />
+
+    <ImageView
+        android:id="@+id/img_countdown_get_3"
+        android:background="@drawable/decompte3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/img_countdown_get_2"
+        android:background="@drawable/decompte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/img_countdown_get_1"
+        android:background="@drawable/decompte1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/img_countdown_get_0"
+        android:background="@drawable/decompteggo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

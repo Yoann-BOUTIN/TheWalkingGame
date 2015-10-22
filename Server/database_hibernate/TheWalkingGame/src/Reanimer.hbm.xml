@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="database.Reanimer" table="reanimer">
+		<id name="id" type="int" column="id">
+			<generator class="native" />
+		</id>
+		<property name="joueur" type="string" column="joueur"/>
+		<property name="score" type="int" column="score" not-null="true" />
+		<property name="scoreTarget" type="int" column="scoreTarget" not-null="true" />
+		<property name="tempsAutorise" type="int" column="tempsAutorise" not-null="true" />
+		<property name="prototype" type="int" column="prototype" not-null="true" />
+	</class>
+</hibernate-mapping>

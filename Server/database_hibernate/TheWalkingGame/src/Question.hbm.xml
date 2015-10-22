@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="database.Question" table="question">
+		<id name="questionId" type="int" column="question_id">
+			<generator class="native" />
+		</id>
+		<property name="questionText" type="string" not-null="true"
+			column="question_text" />
+		<property name="multipleAnswers" type="boolean" column="question_multiple_choice"
+			not-null="true" />
+	</class>
+</hibernate-mapping>

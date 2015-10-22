@@ -1,0 +1,76 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "19.0.3"
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.google.android.gms:play-services:4.2.42'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('C:/Users/kevin/Desktop/ProjetLicence/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/kevin/Desktop/ProjetLicence/TheWalkingGame/libs/mockito-all-1.9.0.jar')
+    compile files('C:/Users/kevin/Desktop/ProjetLicence/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/kevin/Desktop/ProjetLicence/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/kevin/Desktop/ProjetLicence/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/libs/jackson-core-asl-1.8.5.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/libs/jackson-mapper-asl-1.8.5.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGameProject/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGameProject/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGameProject/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGameProject/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Marc/AndroidStudioProjects/TheWalkingGame/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/TheWalkingGame/libs/junit-4.11.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/TheWalkingGame/libs/powermock-mockito-1.5.4-full.jar')
+    compile files('C:/Users/Yoann/Desktop/Informatique/Android/Projet License/TheWalkingGame/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGameProject/TheWalkingGame/libs/junit-4.11.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGameProject/TheWalkingGame/libs/powermock-mockito-1.5.4-full.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/TheWalkingGame/libs/dexmaker-1.0.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/TheWalkingGame/libs/dexmaker-mockito-1.0.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/TheWalkingGame/libs/junit-4.11.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/TheWalkingGame/libs/mockito-all-1.9.5.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/TheWalkingGame/libs/powermock-mockito-1.5.4-full.jar')
+    compile files('C:/Users/Zizou/Documents/AppliAndroid/TheWalkingGame/TheWalkingGame/libs/robotium-solo-5.0.1.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/TheWalkingGame/libs/junit-4.11.jar')
+    compile files('C:/Users/law/Desktop/ProjetLicence/TheWalkingGame/TheWalkingGame/libs/powermock-mockito-1.5.4-full.jar')
+}

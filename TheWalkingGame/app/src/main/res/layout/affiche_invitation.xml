@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/idInvit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_below="@id/idInvit"
+        android:id="@+id/date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/pseudo_inviteur"
+        android:layout_below="@id/date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="recette"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:layout_below="@id/pseudo_inviteur"
+        android:id="@+id/accepter_invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/checkbox_on_background"/>
+
+    <Button
+        android:layout_below="@id/pseudo_inviteur"
+        android:layout_toRightOf="@id/accepter_invitation"
+        android:id="@+id/refuser_invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"/>
+
+</RelativeLayout>

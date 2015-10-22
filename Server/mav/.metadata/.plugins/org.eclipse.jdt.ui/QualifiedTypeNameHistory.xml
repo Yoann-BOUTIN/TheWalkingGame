@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.codingpedia.demo.rest.util.CORSResponseFilter"/>
+<fullyQualifiedTypeName name="org.codingpedia.demo.rest.entities.User"/>
+<fullyQualifiedTypeName name="org.codingpedia.demo.rest.dao.UserDao"/>
+<fullyQualifiedTypeName name="twg.entities.Answer"/>
+<fullyQualifiedTypeName name="twg.dao.AnswerDao"/>
+<fullyQualifiedTypeName name="twg.dao.QuizDao"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="twg.dao.QuestionDao"/>
+<fullyQualifiedTypeName name="twg.entities.Question"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Cascade"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="twg.dao.ObjectiveDao"/>
+<fullyQualifiedTypeName name="twg.entities.Objective"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
+<fullyQualifiedTypeName name="twg.entities.Invitation"/>
+<fullyQualifiedTypeName name="twg.dao.TeamDao"/>
+<fullyQualifiedTypeName name="twg.entities.Team"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
+<fullyQualifiedTypeName name="twg.entities.FindKeys"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="twg.dao.GameFinishedDao"/>
+<fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
+<fullyQualifiedTypeName name="twg.entities.GameFinished"/>
+</qualifiedTypeNameHistroy>

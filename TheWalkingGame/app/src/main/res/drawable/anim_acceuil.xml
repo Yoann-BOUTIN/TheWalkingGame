@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" android:id="@+id/anim">
+    <item android:drawable="@drawable/acceuil" android:duration="8800" />
+    <item android:drawable="@drawable/acceuil7" android:duration="50" />
+    <item android:drawable="@drawable/acceuil4" android:duration="50" />
+    <item android:drawable="@drawable/acceuil7" android:duration="150" />
+    <item android:drawable="@drawable/acceuil4" android:duration="50" />
+    <item android:drawable="@drawable/acceuil7" android:duration="30" />
+    <item android:drawable="@drawable/acceuil4" android:duration="20" />
+    <item android:drawable="@drawable/acceuil" android:duration="30" />
+    <item android:drawable="@drawable/acceuil7" android:duration="100" />
+    <item android:drawable="@drawable/acceuil4" android:duration="20" />
+    <item android:drawable="@drawable/acceuil" android:duration="26700" />
+    <item android:drawable="@drawable/acceuil7" android:duration="50" />
+    <item android:drawable="@drawable/acceuil4" android:duration="50" />
+    <item android:drawable="@drawable/acceuil7" android:duration="150" />
+    <item android:drawable="@drawable/acceuil4" android:duration="50" />
+    <item android:drawable="@drawable/acceuil7" android:duration="30" />
+    <item android:drawable="@drawable/acceuil4" android:duration="20" />
+    <item android:drawable="@drawable/acceuil7" android:duration="200" />
+    <item android:drawable="@drawable/acceuil" android:duration="30" />
+    <item android:drawable="@drawable/acceuil7" android:duration="100" />
+    <item android:drawable="@drawable/acceuil4" android:duration="20" />
+    <item android:drawable="@drawable/acceuil" android:duration="18000" />
+
+</animation-list>
+

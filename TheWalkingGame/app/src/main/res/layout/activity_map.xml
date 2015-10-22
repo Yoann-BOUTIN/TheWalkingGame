@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mapmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentTop="true"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/activity_main_activity2" />
+
+    <TextView
+        android:id="@+id/textDistBetweenObjAndPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BC0000"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/imgPenalite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fond_penalite"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_circle_penalite"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="600px"
+        android:layout_centerHorizontal="true"
+        android:progressDrawable="@drawable/circle_progress_bar"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textPenalite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:layout_marginTop="30px"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="Vous n'avez malheureusement pas reussi le défi qui vous était proposé et vous vous êtes blessé durant votre fuite.\n\nVous devez attendre à votre position afin de vous soigner avant de continuer votre aventure.\n\nVous ne devez surtout pas bouger sinon votre temps de récupération sera bloqué jusqu'à ce que vous restiez immobile."/>
+
+    <TextView
+        android:id="@+id/textPenalit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:layout_marginTop="400px"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="Bonne chance pour la suite de votre aventure !"/>
+
+    <ImageView
+        android:id="@+id/info_next_objective"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/info_next_objective"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/timeChronoMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/red_off"/>
+
+</RelativeLayout>

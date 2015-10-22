@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fond_simon"
+    tools:context="com.thewalkinggame.app.gestionJeu.FindTheKey.SplashFindTheKey">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="Find The Keys"
+        android:textSize="50px"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="120px"
+        android:textSize="35px"
+        android:text="Bienvenue !"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="35px"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="40px"
+        android:text="Vous venez de découvrir une vieille maison qui n'a pas l'air dans un très bon état mais vous êtes curieux de savoir ce qu'il pourrait se trouver à l'intérieur.
+\n\nMalheureusement plusieurs clés ont été cachées sur cette maison.
+Le seul moyen pour vous de savoir laquelle de ces clés est capable de déverrouiller la porte de la vieille maison est de toutes les récupérer.
+\n\nIl y en a 5 cachées à vous de toutes les retrouver avant le temps imparti."/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ff949494"
+        android:textSize="25px"
+        android:text="Touchez l'écran pour continuer"/>
+</RelativeLayout>

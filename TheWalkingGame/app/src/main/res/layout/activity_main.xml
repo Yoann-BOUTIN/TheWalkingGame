@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/simple_anim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/fumee_anim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/boutonToRecrute"
+        android:background="@drawable/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Recruter des survivants  "
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:textColor="#AAAAAA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140pt"/>
+
+    <Button
+        android:id="@+id/boutonToInvitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/boutonToRecrute"
+        android:layout_alignRight="@id/boutonToRecrute"
+        android:text="  Journal d'invitations  "
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:textColor="#AAAAAA"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boutonToRecrute"
+        android:layout_marginTop="15pt"
+        android:background="@drawable/btn_menu"/>
+
+    <Button
+        android:id="@+id/boutonToGame"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/boutonToRecrute"
+        android:layout_alignRight="@id/boutonToRecrute"
+        android:text="  Lancer le test 1 joueur  "
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:textColor="#AAAAAA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15pt"
+        android:background="@drawable/btn_menu"
+        android:layout_below="@id/boutonToInvitation"/>
+
+    <Button
+        android:id="@+id/boutonToProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/boutonToRecrute"
+        android:layout_alignRight="@id/boutonToRecrute"
+        android:text="  Mon profil  "
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:textColor="#AAAAAA"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boutonToGame"
+        android:layout_marginTop="15pt"
+        android:background="@drawable/btn_menu"/>
+
+    <Button
+        android:id="@+id/buttonOption"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/settings_silver"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/buttonSoundMusic"
+        android:layout_width="40px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/buttonOption"
+        android:background="@drawable/musique_on_silver"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSoundClick"
+        android:layout_width="53px"
+        android:layout_height="42px"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/buttonSoundMusic"
+        android:background="@drawable/sono_on_silver"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageButton
+        android:id="@+id/manage_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/manage"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/buttonGoGenerique"
+        android:layout_width="43px"
+        android:layout_height="43px"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/buttonSoundClick"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/generique_silver"
+        />
+
+</RelativeLayout>

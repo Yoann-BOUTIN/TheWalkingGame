@@ -1,0 +1,14 @@
+<?xml version="1.0"?><!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="database.User" table="user">
+		<id name="userId" type="int" column="user_id">
+			<generator class="native" />
+		</id>
+		<property name="userPseudo" type="string" not-null="true" column="user_pseudo"/>
+		<property name="userScore" type="int" column="user_score" not-null="true" />
+		<property name="userPositionLongitude" type="double" column="user_pos_longitude" not-null="true"/>
+		<property name="userPositionLatitude" type="double" column="user_pos_latitude" not-null="true"/>
+	</class>
+</hibernate-mapping>
